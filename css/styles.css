@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url(../assets/images/bg.jpg);
+    background-image: url(../assets/images/bgalt.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ nav {
 
 .main-section {
     width: 100%;
-margin: auto;
+    margin: auto;
 }
 
 .main-container {
@@ -285,7 +285,6 @@ margin: auto;
     height: 40vh;
     /* width: 17.6rem; */
     border-radius: 2%;
-    /* padding-right: 10%; */
 
 }
 
@@ -437,6 +436,7 @@ margin: auto;
 .divison3 a {
     color: red;
     text-decoration: none;
+    justify-items: center;
     font-weight: 700;
     font-size: 3rem;
 
@@ -446,7 +446,7 @@ margin: auto;
     display: flex;
     gap: 7%;
     justify-content: center;
-    padding-top: 4%;
+    padding-top: 12%;
 
 }
 
@@ -456,8 +456,8 @@ margin: auto;
 }
 
 .image-container2 img {
-    width: 85%;
-    height: 70vh;
+ width: 85%;
+    height: 60vh;
     border-radius: 15px;
 
 }
@@ -500,25 +500,16 @@ margin: auto;
 
 }
 
-/* .flex-home2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-
-} */
 
 .reserve {
-    display: flex;
-    /* padding: 10%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10%;
+    padding-top: 10%;
+    padding: 10%;
 
 }
-
-/* flex-home2{
-    display: flex;
-    justify-content: space-evenly/;
-} */
 
 .flex-home2 {
     display: grid;
@@ -527,4 +518,60 @@ margin: auto;
     grid-column-gap: 4%;
     grid-row-gap: 0px;
     padding-bottom: 5%;
+
+}
+
+.input1 input {
+    padding: 7%;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 5%;
+    /* margin-bottom: 20%; */
+    text-align: left;
+}
+
+.input1 button {
+    background-color: rgb(67, 64, 64);
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 10%;
+   
+
+}
+
+.divison4 {
+    background-image: url(../assets/images/videobg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+
+.divison4 h2 {
+    color: red;
+    text-align: center;
+    padding-top: 10%;
+    font-family: "Merienda", cursive;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.divison4 h1 {
+    color: white;
+    text-align: center;
+    font-weight: 5rem;
+    font-size: 4rem;
+    font-family: "Roboto Mono" monospace;
+
+}
+
+.divison4 i {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 5%;
+
+
 }

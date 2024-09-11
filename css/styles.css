@@ -492,7 +492,7 @@ nav {
 .text-container2 h2 {
     margin-bottom: 1rem;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 3.5rem;
     color: rgb(57, 51, 51);
 
@@ -506,3 +506,10 @@ nav {
     grid-row-gap: 0px;
 
 }
+
+.reserve {
+    display: flex;
+    /* padding: 10%; */
+
+}
+

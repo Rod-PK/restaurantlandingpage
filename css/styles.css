@@ -501,11 +501,6 @@ nav {
 }
 
 
-.reserve input {
-/* display: flex; */
-
-}
-
 .flex-home2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -518,7 +513,7 @@ nav {
 
 .input1 {
     padding-bottom: 7%;
-    
+
 }
 
 .input1 input {
@@ -530,7 +525,7 @@ nav {
     text-align: left;
 }
 
-.but6{
+.but6 {
     display: flex;
     justify-content: center;
 }
@@ -596,4 +591,87 @@ nav {
     font-weight: 5rem;
     font-size: 4rem;
     font-family: "Roboto Mono" monospace;
+}
+
+
+.but7 {
+    background-image: url(../assets/images/but7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    /* size: 50%; */
+    height: 35vh;
+    width: 100%;
+    border-radius: 3%;
+    padding-top: 60%;
+    padding-right: 60%;
+
+}
+
+.but8 {
+    background-image: url(../assets/images/but8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    /* size: 50%; */
+    height: 35vh;
+    width: 100%;
+    border-radius: 3%;
+    padding-top: 60%;
+    padding-right: 60%;
+
+}
+
+.but9 {
+    background-image: url(../assets/images/but9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    /* size: 50%; */
+    height: 35vh;
+    width: 100%;
+    border-radius: 3%;
+    padding-top: 60%;
+    padding-right: 60%;
+    
+}
+
+
+.but7 a {
+    text-decoration: none;
+    border: white;
+    padding: 2%;
+    /* border-radius: 10%; */
+    background-color: rgba(37, 36, 36, 0.4);
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+
+.but8 a {
+    text-decoration: none;
+    border: white;
+    padding: 2%;
+    /* border-radius: 10%; */
+    background-color: rgba(37, 36, 36, 0.4);
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+
+.but9 a {
+    text-decoration: none;
+    border: white;
+    padding: 2%;
+    /* border-radius: 10%; */
+    background-color: rgba(37, 36, 36, 0.4);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+
 }

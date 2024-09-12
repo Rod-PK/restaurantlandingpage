@@ -456,7 +456,7 @@ nav {
 }
 
 .image-container2 img {
- width: 85%;
+    width: 85%;
     height: 60vh;
     border-radius: 15px;
 
@@ -501,13 +501,8 @@ nav {
 }
 
 
-.reserve {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 10%;
-    padding-top: 10%;
-    padding: 10%;
+.reserve input {
+/* display: flex; */
 
 }
 
@@ -521,21 +516,31 @@ nav {
 
 }
 
+.input1 {
+    padding-bottom: 7%;
+    
+}
+
 .input1 input {
-    padding: 7%;
-    border-radius: 10px 10px 10px 10px;
-    padding-bottom: 5%;
+    padding: 4%;
+    border: solid 1px;
+    border-radius: 7px 7px 7px 7px;
+    /* padding-bottom: 5%; */
     /* margin-bottom: 20%; */
     text-align: left;
 }
 
-.input1 button {
+.but6{
+    display: flex;
+    justify-content: center;
+}
+
+.but6 button {
     background-color: rgb(67, 64, 64);
     color: white;
-    padding: 5%;
+    padding: 3%;
     border: none;
-    border-radius: 10%;
-   
+    border-radius: 10px 10px 10px 10px;
 
 }
 
@@ -573,5 +578,22 @@ nav {
     justify-content: center;
     padding-top: 5%;
 
+}
 
+.divison5 h2 {
+    color: red;
+    text-align: center;
+    padding-top: 10%;
+    font-family: "Merienda", cursive;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.divison5 h1 {
+    color: rgb(31, 30, 30);
+    text-align: center;
+    font-weight: 5rem;
+    font-size: 4rem;
+    font-family: "Roboto Mono" monospace;
 }

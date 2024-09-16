@@ -135,6 +135,7 @@ nav {
 
 .divison1 {
     background-image: url(../assets/images/div1.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
